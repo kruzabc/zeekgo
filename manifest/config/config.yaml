@@ -18,15 +18,3 @@ database:
     name: "test"
     timezone: "Asia/Shanghai"
     debug: true
-
-gfcli:
-  build:
-    name: "zeekgo"
-    arch: "amd64"
-    system: "linux"
-    mode: "none"
-    cgo: 0
-    packSrc: "manifest/config,resource/public,resource/template"
-    version: "0.1.0"
-    output: "./bin"
-    extra: ""

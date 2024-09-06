@@ -6,3 +6,12 @@ gfcli:
     build: "-a amd64 -s linux -p temp -ew"
     tagPrefixes:
       - kruzlk052
+    name: "zeekgo"
+    arch: "amd64"
+    system: "linux"
+    mode: "none"
+    cgo: 0
+    packSrc: "manifest/config,resource/public,resource/template"
+    version: "1.0.0"
+    output: "./bin"
+    extra: ""  
